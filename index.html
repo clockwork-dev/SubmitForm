@@ -8,68 +8,68 @@
 
   <body>
     <div id=container>
-    <h1 id="title">Form to student concil.</h1>
-    <p id="description">Form to apply for a place at Student concil. Please complete all items.
-    </p>
-    <form id="survey-form" method="post" action='/submit-form'>
-      <fieldset class="bio-fieldset">
-        <label for="name" id="name-label">
-          Fullname 
-          <input required id="name" type="text" placeholder="Enter your fullname.">
-          </label>
-        <label for="email" id="email-label">
-          Email
-          <input required id="email" type="email" placeholder="Enter your email.">
-        </label>
-        <label for="number" id="number-label">
-          Age
-        <input id="number" type="number" max="25" min="17" placeholder="Enter your age.">
-        </label>
-        <label for="dropdown">Choose your department at the university
-          <select id="dropdown" name="dropdown">
-            <option value="">(select one)</option>
-            <option value="1">First</option>
-            <option value="2">Second</option>
-            <option value="3">Third</option>
-          </select>
-        </label>
-      </fieldset>
-      <fieldset class="radio-fieldset">
-        <legend>
-          How long would you like to be involved for?
-        </legend>
-        <label class="label-checkbox"for="one-term">Just one term <input id="one-term" name="radio" type="radio" checked value="first-r-button"></label>
-        <label class="label-checkbox"for="two-term">
-          Two semesters. 
-          <input id="two-term" name="radio" type="radio" value="first-r-button" >
-        </label>
-        <label class="label-checkbox" for="many-term" value="second-r-button">
-          Four or more semesters.
-          <input id="many-term" name="radio" type="radio" value="second-r-button">
-        </label>
-      </fieldset>
-      <fieldset class="checkbox-fieldset">
-        <legend>
-          Choose from a list of options that you feel represent you.
-        </legend>
-          <label><input name="checkbox-accuracy"type="checkbox" value="0">Accuracy</label>
-          <label><input name="checkbox-empaty"type="checkbox" value="1">Empathy</label>
-          <label><input name="checkbox-creativity"type="checkbox" value="2">Creativity</label>
-          <label><input name="checkbox-optimism"type="checkbox" value="3">Optimism</label>
-          <label><input name="checkbox-adaptability"type="checkbox" value="4">Adaptability</label>
-          <label><input name="checkbox-leadership"type="checkbox" value="5">Leadership</label>
-          <label><input name="checkbox-gratitude"type="checkbox" value="6">Gratitude</label>
-          
-      </fieldset>
-      <fieldset>
-        <legend>
-          Describe your motivation to join, and briefly describe yourself.
-        </legend>
-        <textarea id="textarea" type="textarea" name="describe-textarea" required placeholder="Enter your comment here..."></textarea>
-      <fieldset >
-        <input id="submit" type="submit" name="submit" value="Submit">
-      </fieldset>
-    </form>
+        <h1 id="title">Form to student concil.</h1>
+        <p id="description">Form to apply for a place at Student concil. Please complete all items.
+        </p>
+        <form id="survey-form" method="post" action='/submit-form'>
+            <fieldset class="bio-fieldset">
+                <label for="name" id="name-label">
+                Fullname 
+                <input required id="name" type="text" placeholder="Enter your fullname.">
+                </label>
+                <label for="email" id="email-label">
+                Email
+                <input required id="email" type="email" placeholder="Enter your email.">
+                </label>
+                <label for="number" id="number-label">
+                Age
+                <input id="number" type="number" max="25" min="17" placeholder="Enter your age.">
+                </label>
+                <label for="dropdown">Choose your department at the university
+                <select id="dropdown" name="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">First</option>
+                    <option value="2">Second</option>
+                    <option value="3">Third</option>
+                </select>
+                </label>
+            </fieldset>
+            <fieldset class="radio-fieldset">
+                <legend>
+                How long would you like to be involved for?
+                </legend>
+                <label class="label-checkbox"for="one-term">Just one term <input id="one-term" name="radio" type="radio" checked value="first-r-button"></label>
+                <label class="label-checkbox"for="two-term">
+                Two semesters. 
+                <input id="two-term" name="radio" type="radio" value="first-r-button" >
+                </label>
+                <label class="label-checkbox" for="many-term" value="second-r-button">
+                Four or more semesters.
+                <input id="many-term" name="radio" type="radio" value="second-r-button">
+                </label>
+            </fieldset>
+            <fieldset class="checkbox-fieldset">
+                <legend>
+                Choose from a list of options that you feel represent you.
+                </legend>
+                <label><input name="checkbox-accuracy"type="checkbox" value="0">Accuracy</label>
+                <label><input name="checkbox-empaty"type="checkbox" value="1">Empathy</label>
+                <label><input name="checkbox-creativity"type="checkbox" value="2">Creativity</label>
+                <label><input name="checkbox-optimism"type="checkbox" value="3">Optimism</label>
+                <label><input name="checkbox-adaptability"type="checkbox" value="4">Adaptability</label>
+                <label><input name="checkbox-leadership"type="checkbox" value="5">Leadership</label>
+                <label><input name="checkbox-gratitude"type="checkbox" value="6">Gratitude</label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>
+                Describe your motivation to join, and briefly describe yourself.
+                </legend>
+                <textarea id="textarea" type="textarea" name="describe-textarea" required placeholder="Enter your comment here..."></textarea>
+            <fieldset >
+                <input id="submit" type="submit" name="submit" value="Submit">
+            </fieldset>
+        </form>
     </div>
   </body>
 </html>
